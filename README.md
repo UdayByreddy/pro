@@ -1,6 +1,6 @@
 # IPL Project
 
-# Best Practices: Imports
+## Best Practices: Imports
 
 When you import a module, always name the module the same as the file name or it's installed module name. That way it becomes easier to debug when the code becomes more complex.
 
@@ -19,5 +19,5 @@ Bad Usage:
 
  const ipl = require("./ipl");
  ipl.mostManOfTheMatch();
- 
+
  ```
